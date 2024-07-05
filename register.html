@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photologue - Register</title>
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+        <a class="navbar-brand" href="#"><img src="./assets/logo-photologue.png" alt="logo-photologue" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="./home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./photographer.html">Photographer</a></li>
+                <li class="nav-item"><a class="nav-link" href="./galery.html">Portfolio/Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="./booking.html">Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="./location.html">Locations</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about-us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://localhost/phase0/contact-us.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://localhost/phase0/login.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://localhost/phase0/register.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Login Content -->
+    <div class="header">
+        <h1>Register</h1>
+        <p>Welcome to Photologue, your premier photography service</p>
+    </div>
+
+    <section class="background">
+        <div class="container">
+            <form action="register.php" method="POST">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="address">Address:</label>
+                        <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone">Phone:</label>
+                        <input type="number" class="form-control" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="date_birth">Date Birth:</label>
+                        <input type="date" class="form-control" id="date_birth" name="date_birth" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="gender">Gender:</label>
+                        <select class="form-control" id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="Man">Man</option>
+                            <option value="Woman">Woman</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>About Us</h5>
+                    <p>We are a team of professional photographers dedicated to capturing your special moments with high-quality photos and exceptional service.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p> <img src="./assets/logo-photologue.png" alt="logo-photologue" class="logo"> All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

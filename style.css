@@ -1,0 +1,114 @@
+/* Logo */
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* navbar */
+.navbar-custom {
+    background-color: white
+}
+.navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
+    color: black
+}
+
+/* Home */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+
+/* carousel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+    transform: translateX(-0%);
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+
+/* .background */
+.background {
+    background-color: white;
+    padding-top: 10px;
+}
+
+/* .guarantee-section */
+.guarantee-section {
+    background-color: white;
+    padding: 30px;
+}
+
+/* .how-it-works-section */
+.how-it-works-section {
+    padding: 40px 0;
+    text-align: center;
+}
+.how-it-works-section .step {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.how-it-works-section .step-number {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.footer .footer-links {
+    list-style: none;
+    padding: 0;
+}
+.footer .footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+.footer .footer-links a {
+    color: black;
+    text-decoration: none;
+}
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: black;
+    font-size: 24px;
+}
+.footer .social-icons a:hover {
+    color: lightblue;
+}
+
+
+/* Content */
+.header {
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
